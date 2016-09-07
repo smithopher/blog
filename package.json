@@ -15,9 +15,6 @@
   "bugs": {
     "url": "https://github.com/smithopher/blog/issues"
   },
-  "engines": {
-    "node": "1.6.2"
-  },
   "homepage": "https://github.com/smithopher/blog#readme",
   "dependencies": {
     "async": "^2.0.1",
