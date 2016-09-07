@@ -16,7 +16,7 @@
     "url": "https://github.com/smithopher/blog/issues"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "homepage": "https://github.com/smithopher/blog#readme",
   "dependencies": {
