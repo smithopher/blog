@@ -2,7 +2,7 @@
 
 #### Welcome to my Blog API!
 
-I have hosted this API on Heroku to save you the time of configuring the database, but please feel free to view the code associated with my API!
+I have hosted this API on Heroku to save you the time of configuring the database, but please feel free to view the code I wrote to build it!
 
 Here's a simple set of instructions to get you started!
 
