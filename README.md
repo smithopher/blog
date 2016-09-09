@@ -12,7 +12,7 @@ curl 'http://obscure-caverns-98424.herokuapp.com/'
 
 Now let's get you started on the good stuff!
 
-###### Reading Posts:
+#### Reading Posts:
 
 First, you should send a GET request to receive a master list of each post. You can do so by running the following command in command line:
 
@@ -26,7 +26,7 @@ curl 'http://obscure-caverns-98424.herokuapp.com/getPost?postid=POSTID'
 
 where POSTID is any valid postid found in the master list retrieved above.
 
-###### Creating comments:
+#### Creating comments:
 
 To create a comment, you can simply run the following command in command line:
 
@@ -34,7 +34,7 @@ curl -X POST -H 'Content-Type: application/json' -d '{"postid":POSTID, "comment"
 
 where POSTID is any valid postid, COMMENT can be any string, and COMMENTER can be null, but is where you would disclose your name, if you wish to, also as a string.
 
-###### Finding master list of authors:
+#### Finding master list of authors:
 
 To find a comprehensive list of the registered authors in this blog, you can use this command:
 
@@ -42,7 +42,7 @@ curl 'http://obscure-caverns-98424.herokuapp.com/authors'
 
 This will return an array of objects containing author information.
 
-###### Viewing posts written by each author:
+#### Viewing posts written by each author:
 
 To find a list of posts written by each author, you can use the following command:
 
@@ -50,7 +50,7 @@ curl 'http://obscure-caverns-98424.herokuapp.com/authorPosts?authorid=AUTHORID'
 
 where AUTHORID is found in the array of authors from the master list of authors.
 
-###### Creating a user name as an author:
+#### Creating a user name as an author:
 
 To create a post, you will need to be authenticated as an author. Don't worry, it's easy to create authors! All you need to do is throw this into command line:
 
@@ -58,7 +58,7 @@ curl -X POST -H 'Content-Type: application/json' -d '{"email":EMAIL,"name":NAME,
 
 where EMAIL is your email address, NAME is your full name, and PASSWORD is the password you wish to use for logging in and creating posts (EMAIL, NAME, and PASSWORD each need to be entered as strings enclosed in "").
 
-###### Creating a post:
+#### Creating a post:
 
 Now that you have a valid login, you will need to actually use it! To log in, you will need to enter this command into command line:
 
